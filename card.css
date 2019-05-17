@@ -71,6 +71,24 @@ html{
 	text-align: center;
 	color: navy;
 }
+.card:hover .card-back{
+  transform: rotateY(0deg);
+}
+.card:hover .card-front{
+  transform: rotateY(180deg);
+}
+.card2:hover .card-back{
+  transform: rotateY(0deg);
+}
+.card2:hover .card-front{
+  transform: rotateY(180deg);
+}
+.card3:hover .card-front{
+  transform: rotateY(180deg);
+}
+.card3:hover .card-back{
+  transform: rotateY(0deg);
+}
 @media screen and (max-width:600px){
 	.card{
 		height: 15rem;
@@ -102,23 +120,28 @@ html{
 		height: 15rem;
 		width: 30rem;
 		font-size: 3rem;
+		transform: rotateY(0deg);
+		z-index: 1;
+		background: none;
+		text-shadow: 5px 5px 8px rgba(0,0,0,1);
+		color: white;
 	}
-}
-.card:hover .card-back{
-  transform: rotateY(0deg);
-}
-.card:hover .card-front{
-  transform: rotateY(180deg);
-}
-.card2:hover .card-back{
-  transform: rotateY(0deg);
-}
-.card2:hover .card-front{
-  transform: rotateY(180deg);
-}
-.card3:hover .card-front{
-  transform: rotateY(180deg);
-}
-.card3:hover .card-back{
-  transform: rotateY(0deg);
+	.card:hover .card-back{
+	  transform: rotateY(0deg);
+	}
+	.card:hover .card-front{
+	  transform: rotateY(0deg);
+	}
+	.card2:hover .card-back{
+	  transform: rotateY(0deg);
+	}
+	.card2:hover .card-front{
+	  transform: rotateY(0deg);
+	}
+	.card3:hover .card-front{
+	  transform: rotateY(0deg);
+	}
+	.card3:hover .card-back{
+	  transform: rotateY(0deg);
+	}
 }
