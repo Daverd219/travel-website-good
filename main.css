@@ -112,16 +112,19 @@ body{
 @media screen and (max-width:600px){
   .sidebar_item{
     position: relative;
-    left: -22%;
+    left: -12%;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-top: 10rem;
   }
   .hamburger:hover .sidebar {
-    width: 100%;
-    transform: translateX(-85%);
+    width: 99%;
+    transform: translateX(-86%);
     transition: 1s border: solid black;
     background-color: #492e95;
   }
   .sidebar{
-    height: 102vh;
+    height: 70vh;
   }
   .hamburger{
     left: 80%;
@@ -160,6 +163,9 @@ body{
     left: 79%;
     top: 91%;
     height: 10%;
+  }
+  #logo-circle:hover{
+    transform: scale(1);
   }
 }
 .header_primary{
@@ -330,7 +336,7 @@ body{
   font-size: 2rem;
 }
 @media screen and (max-width:600px){
-  .btn {
+.btn {
     position: relative;
 }
 .header_primary{
@@ -410,6 +416,36 @@ body{
     position: absolute;
     top: 83%;
     left: 46%;
+  }
+  .col2img:hover{
+    transform: scale(1);
+    z-index: 0;
+    transition: 1s;
+  }
+  .img:hover .col2img:not(:hover){
+    transform: scale(1);
+    z-index: 0;
+    opacity: 1;
+  }
+  .col2-1:hover .col2text1{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
+  }
+  .col2-2:hover .col2text2{
+    color: white;
+    z-index: 1;
+    text-shadow: none;
+  }
+  .col2-3:hover .col2text3{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
+  }
+  .col2-4:hover .col2text4{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
   }
 }
 .third{
@@ -591,6 +627,29 @@ body{
 }
 .fifth_popup_button:hover{
   filter: invert(100%);
+}
+@media screen and (max-width:375px){
+  .newspaper_img {
+    height: 16rem;
+    top: 5%;
+    left: 17%;
+  }
+  .fifth_left_header_text{
+    top: 25%;
+    left: 6%;
+  }
+  .fifth_right_column{
+    display: none;
+    width: 0;
+  }
+  .fifth_left_article{
+    left: 10%;
+    top: 33%;
+    font-size: 2.9rem;
+  }
+  .fifth_popup_button{
+    left: 30%;
+  }
 }
 @keyframes left {
   0% {
