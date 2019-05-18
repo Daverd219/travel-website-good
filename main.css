@@ -1,5 +1,39 @@
 :root{
-  --
+  --color-primary: #07419e;
+  --color-primary-light: #3b83f7;
+  --color-primary-dark: #031e49;
+
+  --color-secondary: #6600ff;
+  --color-secondary-light: #b380ff;
+  --color-secondary-dark: #330080;
+
+  --color-tertiary: #00bfff;
+  --color-tertiary-light: #80dfff;
+  --color-tertiary-dark:  #006080;
+
+  --default-font-size: 1.6rem;
+}
+html{
+	font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 2.5rem;
+  position: relative;
+}
+.emphasis{
+  font-weight: bold;
+  font-style: normal;
+}
+.sidebar_parent{
+  transition: 1s;
+}
+.sidebar {
   background-color: lightgrey;
   z-index: 3;
   position: fixed;
