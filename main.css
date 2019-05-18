@@ -14,7 +14,7 @@
   --default-font-size: 1.6rem;
 }
 html{
-	font-size: 62.5%;
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 *, *::before, *::after{
@@ -109,7 +109,7 @@ body{
   box-shadow: 0 1.5rem 4rem rgba(0,0,0,.45);
   transition: .5s;
 }
-@media screen and (max-width:600px){
+@media only screen and (max-width:375px){
   .sidebar_item{
     position: relative;
     left: -12%;
@@ -158,7 +158,7 @@ body{
   transform: scale(1.35);
   transition: .25s;
 }
-@media screen and (max-width: 600px){
+@media only screen and (max-width: 375px){
   #logo-circle{
     left: 79%;
     top: 91%;
@@ -335,37 +335,37 @@ body{
   font-family: 'Roboto Slab', serif;
   font-size: 2rem;
 }
-@media screen and (max-width:600px){
-.btn {
+@media only screen and (max-width:375px){
+  .btn {
     position: relative;
-}
-.header_primary{
+  }
+  .header_primary{
   top: 25%;
   width: 26rem;
   left: 11%;
-}
-.header_primary_text{
+  }
+  .header_primary_text{
   position: relative;
-}
-.header_primary_subtext{
+  }
+  .header_primary_subtext{
   position: relative;
-}
-.col2subtitle {
+  }
+  .col2subtitle {
     font-size: 1.3rem;
     position: relative;
     top: -64%;
     left: -1350%;
     width: 30rem;
     margin-top: 0rem;
-}
-.col2title {
+  }
+  .col2title {
     font-size: 2.4rem;
     top: -48%;
     left: -1560%;
     position: relative;
     text-align: center;
     width: 37rem;
-}
+  }
   .second{
     margin-top: 25rem;
   }
@@ -474,7 +474,7 @@ body{
   top: 16%;
   text-shadow: 1px 1px 4px #FFFFFF;
 }
-@media screen and (max-width:600px){
+@media only screen and (max-width:375px){
   .third{
     border-radius: .5rem;
   }
@@ -537,7 +537,7 @@ body{
   left: 78%;
   transform: rotate(15deg);
 }
-@media screen and (max-width:600px){
+@media only screen and (max-width:375px){
   .fourth_textbox{
     font-size: 4rem;
   }
@@ -566,9 +566,6 @@ body{
   display: none;
   width: 0rem;
   background-image: url(img/fifthpaper.png);
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-fill-mode: both;
 }
 .fifth:target{
   visibility: visible;
@@ -628,7 +625,7 @@ body{
 .fifth_popup_button:hover{
   filter: invert(100%);
 }
-@media screen and (max-width:375px){
+@media only screen and (max-width:375px){
   .newspaper_img {
     height: 16rem;
     top: 5%;
@@ -662,13 +659,3 @@ body{
   -webkit-transform: none;
   transform: none;
   }
-  @keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
