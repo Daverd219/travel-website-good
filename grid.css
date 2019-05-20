@@ -19,12 +19,9 @@ html{
 	margin-bottom: 8rem;
 }
 .col-1-of-2{
-	height: 60%;
+	height: 65rem;
 	width: calc((100% - var(--gutter-horizontal))/2);
 	position: relative;
-}
-.col-2-of-2{
-
 }
 .col-1-of-3{
 	width: var(--gutter-horizontal * 3);
