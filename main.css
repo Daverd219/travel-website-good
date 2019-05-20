@@ -216,7 +216,7 @@ body{
 
 /* Content block 1 iPad Pro media query */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1366px){
   #logo-circle{
     left: 73%;
     top: 80%;
@@ -227,7 +227,7 @@ body{
 
 @media screen and (max-width: 375px){
   #logo-circle{
-    left: 79%;
+    left: 75%;
     top: 91%;
     height: 10%;
   }
@@ -347,7 +347,7 @@ body{
 
 /* Content block 2 iPad Pro media query */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1366px){
   .second{
     height: 60vh;
   }
