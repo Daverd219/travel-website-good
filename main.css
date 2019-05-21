@@ -676,7 +676,8 @@ body{
     top: 42%;
     width: 10rem;
     text-align: center;
-    left: 75%;
+    left: 95%;
+    transform: translateX(-50%);
   }
 }
 
