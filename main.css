@@ -469,7 +469,7 @@ body{
     margin-top: 25rem;
   }
   .col2img{
-    width: 200%;
+    width: 330%;
   }
   .col2img1{
     position: absolute;
@@ -502,22 +502,22 @@ body{
   .col2text1{
     position: absolute;
     top: 2%;
-    left: -18%;
+    left: 20%;
   }
   .col2text2{
     position: absolute;
     top: 30%;
-    left: 46%;
+    left: 20%;
   }
   .col2text3{
     position: absolute;
     top: 55%;
-    left: -18%;
+    left: 20%;
   }
   .col2text4{
     position: absolute;
     top: 83%;
-    left: 46%;
+    left: 20%;
   }
   .col2img:hover{
     transform: scale(1);
