@@ -55,10 +55,8 @@ html{
 	clear: both;
 }
 @media screen and (max-width: 500px){
-	[class^="col-"]:last-child{
-		margin-left: 0%;
-	}
-	.col2-1{
-		height: 65%;
+	.col1-of-2{
+		display: flex;
+		flex-flow: column;
 	}
 }
