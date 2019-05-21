@@ -23,6 +23,10 @@ html{
 	width: 35%;
 	position: relative;
 }
+.col2-1{
+	height: 65%;
+	width: 35%;
+}
 .col-1-of-3{
 	width: var(--gutter-horizontal * 3);
 }
