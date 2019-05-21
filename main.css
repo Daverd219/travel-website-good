@@ -672,6 +672,12 @@ body{
   }
 }
 
+@media screen and (max-width:1366px){
+  .fourth_textbox{
+    font-size: 12rem;
+  }
+}
+
 /* Content block 5 */
 
 .fifth{
