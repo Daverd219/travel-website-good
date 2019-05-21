@@ -447,6 +447,9 @@ body{
   .col2title{
     font-size: 3.8rem;
   }
+  .col2img{
+    width: 80%;
+  }
 }
 /* Content block 2 iPhone X media query */
 
