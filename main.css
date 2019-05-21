@@ -469,23 +469,27 @@ body{
     margin-top: 25rem;
   }
   .col2img{
-    width: 100%;
+    width: 200%;
   }
   .col2img1{
     position: absolute;
     top: -5%;
+    left: 0%;
   }
   .col2img2{
     position: absolute;
     top: 20%;
+    left: 0%;
   }
   .col2img3{
     position: absolute;
     top: 45%;
+    left: 0%;
   }
   .col2img4{
     position: absolute;
     top: 70%;
+    left: 0%;
   }
   .col2text{
     transition: 1s;
