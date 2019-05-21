@@ -658,6 +658,12 @@ body{
 }
 
 /* Content block 4 iPhone X media query */
+@media screen and (max-width:1366px){
+  .fourth_textbox{
+    font-size: 10rem;
+  }
+}
+
 
 @media screen and (max-width:500px){
   .fourth_textbox{
@@ -677,12 +683,6 @@ body{
   }
   .fourth_popup_button{
     left: 26%;
-  }
-}
-
-@media screen and (max-width:1366px){
-  .fourth_textbox{
-    font-size: 10rem;
   }
 }
 
