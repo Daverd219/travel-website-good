@@ -114,7 +114,7 @@ body{
 
 /* Sidebar iPhone X media query */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .sidebar_item{
     position: relative;
     left: -12%;
@@ -225,7 +225,7 @@ body{
 
 /* Content block 1 iPhone X media query */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
   #logo-circle{
     left: 75%;
     top: 91%;
@@ -437,7 +437,7 @@ body{
 
 /* Content block 2 iPhone X media query */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .second{
     height: 95vh;
   }
@@ -568,7 +568,7 @@ body{
 
 /* Content block 3 iPhone X media query */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .third{
     border-radius: .5rem;
   }
@@ -637,7 +637,7 @@ body{
 
 /* Content block 4 iPhone X media query */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .fourth_textbox{
     font-size: 4rem;
   }
@@ -734,7 +734,7 @@ body{
 
 /* Content block 5 iPhone X media query */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .newspaper_img {
     height: 16rem;
     top: 5%;
