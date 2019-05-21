@@ -660,7 +660,23 @@ body{
 /* Content block 4 iPhone X media query */
 @media screen and (max-width:1366px){
   .fourth_textbox{
-    font-size: 10rem;
+    font-size: 8rem;
+  }
+  .fourth_popup_button {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .fourth_sidebox{
+    font-size: 2rem;
+    top: 42%;
+    width: 10rem;
+  }
+  .fourth_sidebox_2{
+    font-size: 2rem;
+    top: 42%;
+    width: 10rem;
+    text-align: center;
+    left: 75%;
   }
 }
 
@@ -679,10 +695,11 @@ body{
     top: 37%;
     width: 10rem;
     text-align: center;
-    left: 65%;
+    left: 72%;
   }
-  .fourth_popup_button{
-    left: 26%;
+  .fourth_popup_button {
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
