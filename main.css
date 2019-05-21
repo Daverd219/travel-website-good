@@ -452,15 +452,15 @@ body{
   .col2subtitle {
     font-size: 1.3rem;
     position: relative;
-    width: 200%;
-    top: -16%;
-    left: -82%;
+    width: 300%;
+    top: -60%;
+    left: -90%;
     margin-top: 0rem;
   }
   .col2title {
     font-size: 2.4rem;
-    top: 0%;
-    left: -130%;
+    top: -45%;
+    left: -115%;
     position: relative;
     text-align: center;
     width: 37rem;
