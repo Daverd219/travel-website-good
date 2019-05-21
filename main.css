@@ -357,7 +357,7 @@ body{
 
 @media screen and (max-width: 1366px){
   .second{
-    height: 95vh;
+    height: 75vh;
   }
   .col2{
     position: absolute;
@@ -727,6 +727,7 @@ body{
   text-align: center;
   padding: 2rem;
   border-left: solid black .5rem;
+  margin-left: 3%;
 }
 .fifth_right_article{
   font-size: 3rem;
