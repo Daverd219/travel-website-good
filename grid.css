@@ -19,13 +19,9 @@ html{
 	margin-bottom: 8rem;
 }
 .col-1-of-2{
-	height: 65%;
-	width: 35%;
+	height: 65rem;
+	width: calc((100% - var(--gutter-horizontal))/2);
 	position: relative;
-}
-.col2-1{
-	height: 65%;
-	width: 35%;
 }
 .col-1-of-3{
 	width: var(--gutter-horizontal * 3);
@@ -43,35 +39,18 @@ html{
   width: calc(var(--gutter-4) * 3 + 12rem);
 }
 [class^="col-"]{
-  border-radius: .5rem;
-  padding: 5px;
-  text-align: center;
+    border-radius: .5rem;
+    padding: 5px;
+    text-align: center;
 	float: left;
-  transition: .25s;
+    transition: .25s;
 	font-size: 2rem;
 }
 [class^="col-"]:last-child{
-	margin-left: 10%;
+	margin-left: 15rem;
 }
 .row::after{
 	content: "";
 	display: table;
 	clear: both;
-}
-@media screen and (max-width: 500px){
-	.col1-of-2{
-		display: flex;
-		flex-flow: column;
-	}
-	.col2-1{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	.col2-2{
-		top: -50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
 }
