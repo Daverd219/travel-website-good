@@ -214,15 +214,6 @@ body{
   transform: scale(1.5);
 }
 
-/* Content block 1 iPad Pro media query */
-
-@media screen and (max-width: 1366px){
-  #logo-circle{
-    left: 85%;
-    top: 80%;
-  }
-}
-
 /* Content block 1 iPhone X media query */
 
 @media screen and (max-width: 375px){
@@ -235,6 +226,16 @@ body{
     transform: scale(1);
   }
 }
+
+/* Content block 1 iPad Pro media query */
+
+@media screen and (max-width: 1366px){
+  #logo-circle{
+    left: 85%;
+    top: 80%;
+  }
+}
+
 /* Content block 2 css */
 
 .second{
@@ -345,96 +346,6 @@ body{
   font-size: 2rem;
 }
 
-/* Content block 2 iPad Pro media query */
-
-@media screen and (max-width: 1366px){
-  .second{
-    height: 95vh;
-  }
-  .col2{
-    position: absolute;
-    left: 20%;
-  }
-  .col2img1{
-    position: absolute;
-    top: 0%;
-    left: 35%;
-  }
-  .col2img2{
-    position: absolute;
-    top: 25%;
-    left: 5%;
-  }
-  .col2img3{
-    position: absolute;
-    top: 50%;
-    left: 35%;
-  }
-  .col2img4{
-    position: absolute;
-    top: 75%;
-    left: 5%;
-  }
-  .col2text{
-    transition: 1s;
-    font-size: 2rem;
-    text-shadow: .6rem .6rem .8rem rgba(0,0,0,1);
-    width: 20rem;
-    font-weight: 600;
-    letter-spacing: 1.2;
-  }
-  .col2text1{
-    position: absolute;
-    top: 5%;
-    left: 45%;
-  }
-  .col2text2{
-    position: absolute;
-    top: 30%;
-    left: 15%;
-  }
-  .col2text3{
-    position: absolute;
-    top: 55%;
-    left: 45%;
-  }
-  .col2text4{
-    position: absolute;
-    top: 80%;
-    left: 15%;
-  }
-  .col2img:hover{
-    transform: scale(1);
-    z-index: 0;
-    transition: 1s;
-  }
-  .img:hover .col2img:not(:hover){
-    transform: scale(1);
-    z-index: 0;
-    opacity: 1;
-  }
-  .col2-1:hover .col2text1{
-    color: white;
-    z-index: 0;
-    text-shadow: none;
-  }
-  .col2-2:hover .col2text2{
-    color: white;
-    z-index: 1;
-    text-shadow: none;
-  }
-  .col2-3:hover .col2text3{
-    color: white;
-    z-index: 0;
-    text-shadow: none;
-  }
-  .col2-4:hover .col2text4{
-    color: white;
-    z-index: 0;
-    text-shadow: none;
-  }
-}
-
 /* Content block 2 iPhone X media query */
 
 @media screen and (max-width:375px){
@@ -504,6 +415,96 @@ body{
     position: absolute;
     top: 83%;
     left: 46%;
+  }
+  .col2img:hover{
+    transform: scale(1);
+    z-index: 0;
+    transition: 1s;
+  }
+  .img:hover .col2img:not(:hover){
+    transform: scale(1);
+    z-index: 0;
+    opacity: 1;
+  }
+  .col2-1:hover .col2text1{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
+  }
+  .col2-2:hover .col2text2{
+    color: white;
+    z-index: 1;
+    text-shadow: none;
+  }
+  .col2-3:hover .col2text3{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
+  }
+  .col2-4:hover .col2text4{
+    color: white;
+    z-index: 0;
+    text-shadow: none;
+  }
+}
+
+/* Content block 2 iPad Pro media query */
+
+@media screen and (max-width: 1366px){
+  .second{
+    height: 95vh;
+  }
+  .col2{
+    position: absolute;
+    left: 20%;
+  }
+  .col2img1{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+  }
+  .col2img2{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  .col2img3{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+  .col2img4{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+  .col2text{
+    transition: 1s;
+    font-size: 2rem;
+    text-shadow: .6rem .6rem .8rem rgba(0,0,0,1);
+    width: 20rem;
+    font-weight: 600;
+    letter-spacing: 1.2;
+  }
+  .col2text1{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+  }
+  .col2text2{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+  .col2text3{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+  }
+  .col2text4{
+    position: absolute;
+    top: 80%;
+    left: 15%;
   }
   .col2img:hover{
     transform: scale(1);
