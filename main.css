@@ -443,6 +443,11 @@ body{
   }
 }
 
+@media screen and (max-width: 1024px){
+  .col2title{
+    font-size: 3.5rem;
+  }
+}
 /* Content block 2 iPhone X media query */
 
 @media screen and (max-width:500px){
